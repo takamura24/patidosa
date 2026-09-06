@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: patidosa
-          image: <dockerhub-username>/patidosa:latest   # replace before applying
+          image: sabhareeshramkumar/ci-pipeline   # replace before applying
           ports:
             - containerPort: 8080
           env:
